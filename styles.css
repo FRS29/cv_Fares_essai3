@@ -39,35 +39,3 @@ nav a {
 nav a:hover {
     color: #008aff; /* Change the color on hover */
 }
-
-main {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-}
-
-footer {
-    background-color: #343a40;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
-
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    nav ul {
-        margin-top: 10px;
-    }
-
-    nav ul li {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
-}
